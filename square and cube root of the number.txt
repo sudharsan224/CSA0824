@@ -1,5 +1,4 @@
 p=int(input("enter a number:"))
-
 c=p*p
 d=p*p*p
 print("enter a square and cube root of the value",c,d)
