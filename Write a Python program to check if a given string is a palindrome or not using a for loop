@@ -1,0 +1,9 @@
+n=input()
+org=n
+rev=""
+for i in n:
+  rev=i+rev
+if org==rev:
+  print(n,"is palindrome")
+else:
+  print(n,"is not a palindrome")
