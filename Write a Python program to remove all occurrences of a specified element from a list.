@@ -1,0 +1,7 @@
+def remove_occurrences(lst,element):
+  return[item for item in lst if item!=element]
+original_list=[1,2,3,4,2,5,2,6]
+element_to_remove=2 
+updated_list=remove_occurrences(original_list,element_to_remove)
+print("original list=",original_list)
+print("updated list=",updated_list)
