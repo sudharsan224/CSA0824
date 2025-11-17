@@ -1,0 +1,6 @@
+word=input()
+count=0
+for j in word:
+  if('a'==j or 'e'==j or 'i'==j or 'o'==j or 'u'==j or 'A'==j or 'E'==j or 'I'==j or 'O'==j or 'U'==j):
+    count+=1
+print(count)
