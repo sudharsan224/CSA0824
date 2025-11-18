@@ -1,0 +1,8 @@
+def string(s):
+    try:
+        return float(s)
+    except ValueError:
+        return None
+input_string = input()
+result = string(input_string)
+print("Converted float:", result)
