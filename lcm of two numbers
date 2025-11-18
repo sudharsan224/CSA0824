@@ -1,0 +1,5 @@
+import math
+a=int(input())
+b=int(input())
+lcm=abs(a*b)//math.gcd(a,b)
+print("the lcm of",a,"and",b,"is",lcm)
