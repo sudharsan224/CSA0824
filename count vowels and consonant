@@ -1,0 +1,6 @@
+text=input()
+vowels="aeiou"
+v_list=[ch for ch in text if ch.lower() in vowels]
+c_list=[ch for ch in text if ch.isalpha and ch.lower() not in vowels]
+print(len(v_list),(v_list))
+print(len(c_list),(c_list))
