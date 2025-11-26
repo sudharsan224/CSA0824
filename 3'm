@@ -1,0 +1,8 @@
+import statistics
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+mean = statistics.mean(numbers)
+median = statistics.median(numbers)
+mode = statistics.mode(numbers)
+print("Mean =", mean)
+print("Median =", median)
+print("Mode =", mode)
