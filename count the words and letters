@@ -1,0 +1,10 @@
+s="what is python"
+word=s.split()
+result=len(word)
+print(result)
+---------------------------
+
+s="what is python"
+words=.split()
+result=len(s)
+print(result)
