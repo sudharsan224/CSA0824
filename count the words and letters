@@ -8,3 +8,9 @@ s="what is python"
 words=.split()
 result=len(s)
 print(result)
+---------------------------
+
+string="python is easy and python is powerful"
+word="python"
+count=string.count(word)
+print(f"'{word}'appers{count}times")
